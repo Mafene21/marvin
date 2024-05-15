@@ -1,0 +1,123 @@
+*{
+    margin: 5px;
+    padding: 0;
+    
+    
+    align-items: center;
+}
+body{
+    box-sizing: border-box;  
+}
+.subs{
+    display: flex;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    
+        color: rgb(225, 120, 120);
+        text-transform: capitalize;
+        
+        font-size: 16px;
+        
+        
+    
+        text-decoration: none;
+        font-weight: 300;
+       
+        display: block;
+        transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    
+        color:yellow;
+        padding-left: 10px;
+
+
+}
+.image-container{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    transition: width 2s;
+    opacity: 5s;
+}
+.image-container:hoover{
+    padding-left: 10px;
+    color: grey;
+
+}
+
+button{
+    background-color:rgb(225, 225, 5);
+    border: none;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 8px;
+    border-radius: 0.2pc;
+    cursor: pointer;
+}
+button:hover{
+  padding-left: 10px;
+  background-color: red;
+
+}
+.one{
+    width: 150px;
+}
+.two{
+    width: 150px;
+}
+.three{
+    width: 150px;
+}
+.five{
+    width: 150px;
+}
+.six{
+    width: 150px;
+}
+.seven{
+    width: 150px;
+}
+.seven{
+    width: 150px;
+}
+.pic{
+    display: flex;
+    flex-direction: row;
+    
+    background-position-x: center;
+}
+.picture{
+    display: flex;
+    
+    
+}
+
+
+.image-text-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    width: 50%;
+    height: 50%;
+    margin-right: 20px;
+
+}
+.text-container{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
